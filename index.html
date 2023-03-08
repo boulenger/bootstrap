@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap: test Sylvain</title>
+    <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>My First Bootstrap Page</h1>
+      <p>This part is inside a .container class.</p>
+      <p>The .container class provides a responsive fixed width container.</p>
+      <p>Resize the browser window to see that the container width will change at different breakpoints.</p>
+    </div>
+
+    <div class="container-fluid">
+      <h1>My First Bootstrap Page</h1>
+      <p>This is some text.</p>
+    </div>
+
+    <div class="container-fluid mt-3">
+      <h1>Three equal width columns</h1>
+      <p>Note: Try to add a new div with class="col" inside the row class - this will create four equal-width columns.</p>
+      <div class="row">
+        <div class="col p-3 bg-primary text-white">.col</div>
+        <div class="col p-3 bg-dark text-white">.col</div>
+        <div class="col p-3 bg-primary text-white">.col</div>
+      </div>
+    </div>
+    <br>
+    <div class="container mt-3">
+      <h2>Contextual Colors</h2>
+      <p>Use the contextual classes to provide "meaning through colors":</p>
+      <p class="text-muted">This text is muted.</p>
+      <p class="text-primary">This text is important.</p>
+      <p class="text-success">This text indicates success.</p>
+      <p class="text-info">This text represents some information.</p>
+      <p class="text-warning">This text represents a warning.</p>
+      <p class="text-danger">This text represents danger.</p>
+      <p class="text-secondary">Secondary text.</p>
+      <p class="text-dark">This text is dark grey.</p>
+      <p class="text-body">Default body color (often black).</p>
+      <p class="text-light">This text is light grey (on white background).</p>
+      <p class="text-white">This text is white (on white background).</p>
+    </div>
+
+    <div class="container mt-3">
+      <h2>Contextual Backgrounds</h2>
+      <p>Use the contextual background classes to provide "meaning through colors".</p>
+      <div class="bg-primary p-3"></div>
+      <div class="bg-success p-3"></div>
+      <div class="bg-info p-3"></div>
+      <div class="bg-warning p-3"></div>
+      <div class="bg-danger p-3"></div>
+      <div class="bg-secondary p-3"></div>
+      <div class="bg-dark p-3"></div>
+      <div class="bg-light p-3"></div>
+    </div>
+    
+    <div class="container mt-3">
+      <h2>Background Color with Contrasting Text Color</h2>
+      <p class="text-bg-primary">This text is important.</p>
+      <p class="text-bg-success">This text indicates success.</p>
+      <p class="text-bg-info">This text represents some information.</p>
+      <p class="text-bg-warning">This text represents a warning.</p>
+      <p class="text-bg-danger">This text represents danger.</p>
+      <p class="text-bg-secondary">Secondary background color.</p>
+      <p class="text-bg-dark">Dark grey background color.</p>
+      <p class="text-bg-light">Light grey background color.</p>
+    </div>
+
+    <br>
+    <!-- Button to Open the Modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+        Open modal
+    </button>
+    
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+      
+              <!-- Modal Header -->
+              <div class="modal-header">
+              <h4 class="modal-title">Modal Heading</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+      
+              <!-- Modal body -->
+              <div class="modal-body">
+              Modal body..
+              </div>
+      
+              <!-- Modal footer -->
+              <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+              </div>
+      
+          </div>
+        </div>
+    </div>
+    <script src="C:\Users\Sylvain\Desktop\Formations\jquery-3.6.1.min.js"></script>
+    <script src="node_modules\bootstrap\dist\js\bootstrap.bundle.min.js"></script>
+  </body>
+</html>
